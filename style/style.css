@@ -1,0 +1,267 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Barlow";
+    background-color: rgb(227, 253, 253);
+    color: black;
+    scroll-behavior: smooth;
+}
+
+input,
+textarea {
+    font-family: "Barlow";
+    line-height: 25px;
+}
+
+a,
+li {
+    text-decoration: none;
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+
+}
+
+.button {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: rgb(123, 247, 253);
+    color: black;
+    font-weight: 505;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: unset;
+    border: 1px solid rgb(123, 247, 253);
+    color: rgb(123, 247, 253);
+}
+
+.big_letter {
+    color: rgb(245, 97, 97);
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.card_title {
+    font-size: 1.2em;
+    color: rgb(245, 97, 97);
+    font-weight: bold;
+}
+
+.flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*header*/
+header {
+    width: 100%;
+    margin: auto;
+    padding: 0px 50px;
+    min-height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgb(231, 254, 255);
+    transition: 0.5s;
+}
+
+.sticky {
+    background-color: rgb(238, 238, 238);
+    padding: 5px 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    opacity: 1;
+    position: fixed;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sticky #menu #navbar ul {
+    box-shadow: none;
+}
+
+.sticky #menu #navbar li a {
+    color: rgb(34, 40, 49);
+
+}
+
+.sticky #menu #navbar li a:hover {
+    background-color: rgb(113, 201, 206);
+}
+
+
+#logo {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#logo img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.logo_img{
+    position: relative;
+    right: -50px;
+}
+
+.social {
+    font-size: x-large;
+}
+
+.social i {
+    transition: .5s;
+}
+
+.social i:hover {
+    color: tomato;
+    transform: scale(1.1);
+}
+
+.search {
+    min-width: 100px;
+}
+.search i{
+    position: relative;
+    left: -30px;
+    color: #ffffff;
+}
+
+
+
+
+#inp{
+    border-radius: 40px;
+    border: none;
+    background-color: #535353;
+    color: #fff;
+    text-align: right;
+    position: relative;
+    padding-right: 32px;
+    height: 30px;
+    transition: .5s;
+}
+
+.search #inp:focus{
+    background-color: tomato;
+    color: white;
+}
+
+#menu {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+#navbar input[type=checkbox] {
+    opacity: 0;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+#navbar ul li {
+    width: auto;
+    border: 0px solid;
+    margin: 0 2px;
+}
+
+#navbar ul li a {
+    width: 100%;
+    height: 50px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#navbar ul li a:hover {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: tomato;
+    color: black;
+}
+
+
+
+/*-header*/
+
+/*main*/
+/*slider*/
+#orta1 {
+    width: 100%;
+    position: relative;
+    min-height: 92vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0px 15px;
+
+}
+
+.content {
+    max-width: 900px;
+    text-align: center;
+}
+
+
+.content h3 {
+    font-size: 5em;
+    color: #fff;
+}
+
+.content p {
+    font-size: 1em;
+    color: #fff;
+}
+
+/*-slider*/
